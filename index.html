@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <meta charset="utf-8">
+        <title>Calc</title>
+        <script src="app.js"></script>
+    </head>
+    <body bgcolor="grey">
+<p class="text">Твой маленький калькулятор!</p>
+
+<div align="center"><input class="knopki" id="num1"/> <input class="knopki" id="num2"/></div>
+
+<div class="text">
+    <button class="knopki" id="plus" onclick="op='+'">+</button>
+    <button class="knopki" id="minus" onclick="op='-'">-</button>
+    <button class="knopki" id="multiplicate" onclick="op='*'">*</button>
+    <button class="knopki" id="divide" onclick="op='/'">/</button>
+</div>
+<br>
+<div class="text">
+    <button class="result" onclick="fun()">Result</button>
+</div>
+<p class="text2">Результат:</p>
+<p class="text2" id="result"></p>
+
+</body>
+</html>
